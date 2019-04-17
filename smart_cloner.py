@@ -8,8 +8,6 @@ import os
 import platform
 from common import getConf, setConf
 
-import sys
-
 from objects.qradar_connector import QRadarConnector
 from offense2alert import allOffense2Alert
 
