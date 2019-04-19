@@ -6,10 +6,9 @@ import logging.config
 import json
 import os
 import platform
-from common import getConf, setConf
 
-from objects.qradar_connector import QRadarConnector
-from offense2alert import allOffense2Alert
+from objects.common import getConf, setConf
+from objects.offense2alert import allOffense2Alert
 
 ## logger configuration
 currentPath = os.path.dirname(os.path.abspath(__file__))
