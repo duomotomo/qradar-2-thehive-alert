@@ -20,4 +20,4 @@ auth_token = API key configured on QRAdar used to gather information about Offen
 
 
 # How this script differs from Pierre BARLET (https://github.com/pierrebarlet/qradar2thehive) work?
-qradar2thehive script creates Cases with static task list while our script creates Alerts that you could turn to Cases with any templates you want.
+qradar2thehive script creates Cases with static task list while our script creates Alerts that you could turn into Cases with any templates you want.
