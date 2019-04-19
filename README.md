@@ -10,8 +10,8 @@ launch smart_clonner.py
 TheHive - related:<br/>
 <br/>
 url - URL to TheHive instance (for ex. http://172.20.1.5:9000)<br/>
-user - TheHive user used to connect to the TheHive<br/>
-api_key = API key used to connect to the TheHive<br/>
+user - TheHive user used to connect to the TheHive(for ex. quser)<br/>
+api_key = API key used to connect to the TheHive(for ex. = g1p5xYJiT/rAqsdf98fTdfsBa620Zypu)<br/>
 
 QRadar - related:
 
