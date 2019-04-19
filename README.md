@@ -7,16 +7,16 @@ launch smart_clonner.py
 
 # Parameters
 
-TheHive - related:
-
-url - URL to TheHive instance (for ex. http://172.20.1.5:9000)
-user - TheHive user used to connect to the TheHive
-api_key = API key used to connect to the TheHive
+TheHive - related:<br/>
+<br/>
+url - URL to TheHive instance (for ex. http://172.20.1.5:9000)<br/>
+user - TheHive user used to connect to the TheHive<br/>
+api_key = API key used to connect to the TheHive<br/>
 
 QRadar - related:
 
-server = IP address of the QRAdar server( for ex. 172.16.0.1)
-auth_token = API key configured on QRAdar used to gather information about Offences (for ex. f598c71e-a7b8-44fc-9116-51a5dsdf2e1)
+server = IP address of the QRAdar server( for ex. 172.16.0.1)<br/>
+auth_token = API key configured on QRAdar used to gather information about Offences (for ex. f598c71e-a7b8-44fc-9116-51a5dsdf2e1)<br/>
 
 //TODO add more information about parameters
 
