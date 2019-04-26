@@ -168,7 +168,7 @@ def allOffense2Alert():
         offensesList = qradarConnector.getOffensesAfter()
         
         #offenseLastId = -1
-        offenseLastId = cfg.get('QRadar', 'offense_id_after')
+        offenseLastId = int(cfg.get('QRadar', 'offense_id_after'))
 
         #each offenses in the list is represented as a dict
         #we enrich this dict with additional details
