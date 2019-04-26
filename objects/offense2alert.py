@@ -183,7 +183,7 @@ def allOffense2Alert():
                 try:
                     theHiveAlert = qradarOffenseToHiveAlert(theHiveConnector, enrichedOffense)
                     # theHiveEsAlertId = theHiveConnector.createAlert(theHiveAlert)['id']
-                    offense_report['raised_alert_id'] = "12" #theHiveEsAlertId
+                    offense_report['raised_alert_id'] = theHiveEsAlertId
                     offense_report['qradar_offense_id'] = offense['id']
                     offense_report['success'] = True
                     if offenseLastId < offense['id']:
